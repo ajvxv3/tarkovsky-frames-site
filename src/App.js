@@ -1,7 +1,15 @@
-export default function Title() {
-  return <div className="Title">Tarkovsky Frames</div>;
+// export default function Title() {
+//   return <div className="Title">Tarkovsky Frames</div>;
+// }
+
+function App() {
+  return (
+    <header className="title">
+      <div>
+        <h1>Tarkovsky Frames</h1>
+      </div>
+    </header>
+  );
 }
 
-export function SquareY() {
-  return <button className="square">Y</button>;
-}
+export default App;
