@@ -1,14 +1,13 @@
-// export default function Title() {
-//   return <div className="Title">Tarkovsky Frames</div>;
-// }
+import Header from "./components/Header";
+import MovieList from "./components/MovieList";
+import MovieButton from "./components/MovieButton";
 
 function App() {
   return (
-    <header className="title">
-      <div>
-        <h1>Tarkovsky Frames</h1>
-      </div>
-    </header>
+    <>
+      <Header />
+      <MovieList />
+    </>
   );
 }
 
