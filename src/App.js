@@ -1,7 +1,14 @@
-export default function Title() {
-  return <div className="Title">Tarkovsky Frames</div>;
+import Header from "./components/Header";
+import MovieList from "./components/MovieList";
+import MovieButton from "./components/MovieButton";
+
+function App() {
+  return (
+    <>
+      <Header />
+      <MovieList />
+    </>
+  );
 }
 
-export function SquareY() {
-  return <button className="square">Y</button>;
-}
+export default App;
